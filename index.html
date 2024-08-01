@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Zaki Nasiri</title>
+    <link rel="stylesheet" href="./03 Great Portfolio/style.css">
+    <script src="https://kit.fontawesome.com/3f3894ceee.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div class="header" id="header">
+        <div class="container">
+            <nav>
+                <div class="logo-container"><img src="03 Great Portfolio/images/Capture.PNG" class="logo" alt=""></div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+                
+            </nav>
+
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Zaki Nasiri</span> <br> From Kabul</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="03 Great Portfolio/images/WhatsApp Image 2024-08-01 at 14.01.49_301d2b79.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I'm a passionate frontend developer with a strong background in Artificial Intelligence and Machine Learning. I specialize in creating dynamic and user-friendly websites that harness the power of AI to deliver personalized experiences and enhance functionality. </p>
+
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                        <div class="tab-links" onclick="opentab('education')">Education</div>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>.</span><span>Web Development</span><br>- Building Modern Websites</li>
+                            <li><span>.</span><span>Content Creation</span><br>- Writing technical articles</li>
+                            <li><span>.</span><span>Artificial Intelligence</span><br>- Powering websites with Machine Learning features</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>.</span></span><span>2022 - now</span><br>- AnarSoft Technology Services</li>
+                            <li><span>.</span><span>2020 -2021</span><br>- AbarBit Company</li>
+                            <li><span>.</span><span>2019 - 2020</span><br>- Frontend Internship</li>
+                        </ul>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>.</span></span><span>B.CS</span><br>- Kabul University</li>
+                            <li><span>.</span><span>High School Diploma</span><br>- Abdul Ghafoor Sultani</li>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- My Services Section -->
+
+     <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I build cool responsive websites with the latest technologies in the market,</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                   
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Backend</h2>
+                    <p>I also offer services and am interested in working with backend(behind the scenes of applications).</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-newspaper"></i>
+                    <h2>tec. Writing</h2>
+                    <p>Moreover, I offer a wide range of services in the context of content writing, especially marketing and blog posting.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- Portfolio Section -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="03 Great Portfolio/images/1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores neque suscipit. Illum, qui harum.</p>
+                        <a href="#">
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="03 Great Portfolio/images/2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores neque suscipit. Illum, qui harum.</p>
+                        <a href="#">
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="03 Great Portfolio/images/3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe maiores neque suscipit. Illum, qui harum.</p>
+                        <a href="#">
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/zaki-hamdard" class="btn">See More on GitHub</a>
+        </div>
+      </div>
+
+    <!-- Contact Section -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>zakihamdard73@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+93799179426</p>
+                    <div class="social-icons">
+                         <a href="https://www.facebook.com/zakihamdard123">
+                            <i class="fa-brands fa-facebook"></i>
+                         </a>
+                         <a href="https://github.com/zaki-hamdard">
+                            <i class="fa-brands fa-github"></i>
+                         </a>
+                         <a href="https://www.instagram.com/its_zaki_hamdard?igsh=MTQ0aWRucmkwdWpiMw==">
+                            <i class="fa-brands fa-instagram"></i>
+                         </a>
+                         <a href="https://www.linkedin.com/in/zaki-nasiri-1570561b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                            <i class="fa-brands fa-linkedin"></i>
+                         </a>
+                    </div>
+                    <a href="03 Great Portfolio/My CV.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" id="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" id="textarea" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2024. Made With <i class="fa-solid fa-heart"></i> By Zaki Nasiri</p>
+        </div>
+     </div>
+
+     <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzVznMIYDz9maBfTbqhjuCTI5MgtwTPzMwcBekDRdxrcCNvQ951u6wafyHSLlo7n-X8DQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                
+                // span message
+                const msg = document.getElementById("msg");
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(() => {
+                    msg.innerHTML = "";
+                }, 5000);
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+     <script src="03 Great Portfolio/script.js"></script>
+</body>
+</html>
